@@ -26,7 +26,7 @@ h1 {
 }
 
 #title-spacer {
-    height: 200px;
+    height: 150px;
 }
 
 #cover-spacer {
@@ -70,7 +70,7 @@ h1 {
     rotate: -1deg;
     height:20px;
     position:relative;
-    left: 30px;
+    right: 30px;
 }
 
 .social-link {
