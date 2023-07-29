@@ -1,0 +1,161 @@
+* {
+    font-family: times new roman;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f0f0f0;
+}
+
+a:hover {
+    text-shadow: 2px 5px #aaaaaa, 13px 7px #bbbbbb;
+    text-decoration: none;
+    color: gray;
+}
+
+
+h1 {
+    text-align: center;
+    padding-top: 8px;
+}
+
+#title {
+    color: #444444;
+    position: relative;
+    /*animation: mymove 1s infinite;*/
+}
+
+#title-spacer {
+    height: 200px;
+}
+
+#cover-spacer {
+    height:30px;
+}
+
+@keyframes mymove {
+  from {top: 0px;}
+  to {top: 100px;}
+}
+
+#music-text {
+    text-align: center;
+    rotate: 3deg;
+    height: 150px;
+    position:relative;
+    right: 50px;
+}
+
+#text-link {
+    color: gray;
+}
+
+#lyrics-text {
+    text-align: right;
+    rotate: -2deg;
+    position:relative;
+    right: 50px;
+}
+
+#lyrics-link {
+    color: gray;
+}
+
+.text-link {
+    color: gray;
+}
+
+#social-text {
+    text-align: center;
+    rotate: -1deg;
+    height:20px;
+    position:relative;
+    left: 30px;
+}
+
+.social-link {
+    color: #aaaaaa;
+}
+
+a.social-link:hover {
+    text-shadow: 2px 5px #aaaaaa, 13px 7px #bbbbbb;
+    text-decoration: none;
+    color: #aaaaaa;
+}
+
+#cover-image-index {
+    width: 200px;
+    cursor: pointer;
+    position:relative;
+    left: 40px;
+}
+
+.cover-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom:10px;
+}
+
+#cover-display {
+    max-width: 600px;
+    width: 90%;
+}
+
+p {
+    padding: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+    margin-bottom:2px;
+    color: #444444;
+}
+
+.text-center {
+    justify-content: center;
+    display: flex;
+}
+
+.text-center div {
+    align-items: center;
+}
+
+.button-behave-off {
+    color: #5ca404;
+    rotate: 2deg;
+}
+
+.button-behave-off-purple {
+    color: #b0a0ba;
+    rotate: 2deg;
+}
+
+.button-behave-on {
+    color: gray;
+}
+
+.button-behave-on:hover {
+    text-shadow: 2px 5px #aaaaaa, 13px 7px #bbbbbb;
+    text-decoration: none;
+    cursor:pointer;
+}
+
+.lyrics-container {
+    padding-bottom:10px;
+}
+
+.lyrics-songs-container {
+    height: auto;
+}
+
+.bandcamp-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top:20px;
+    padding-bottom:10px;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
