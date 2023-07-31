@@ -1,9 +1,6 @@
 @font-face {
-  font-family: 'tnr';
-  font-style: normal;
-  font-weight: 100;
-  font-display: swap;
-  src: url("tnr.ttf") format("ttf");
+  font-family: tnr;
+  src: url(tnr.ttf);
 }
 
 * {
