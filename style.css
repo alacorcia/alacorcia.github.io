@@ -1,5 +1,13 @@
+@font-face {
+  font-family: 'tnr';
+  font-style: normal;
+  font-weight: 100;
+  font-display: swap;
+  src: url("tnr.ttf") format("ttf");
+}
+
 * {
-    font-family: "Times New Roman", Times, serif;
+    font-family: tnr, "times new roman", Times, serif;
     box-sizing: border-box;
 }
 
