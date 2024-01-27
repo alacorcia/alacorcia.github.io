@@ -4,7 +4,7 @@
 }
 
 * {
-    font-family: tnr, "Times New Roman", Times, serif;
+    font-family: tnr, "times new roman", Times, serif;
     box-sizing: border-box;
 }
 
@@ -35,7 +35,7 @@ h1 {
 }
 
 #cover-spacer {
-    height:30px;
+    height:200px;
 }
 
 @keyframes mymove {
@@ -46,9 +46,16 @@ h1 {
 #music-text {
     text-align: center;
     rotate: 3deg;
-    height: 150px;
+    height: 120px;
     position:relative;
     right: 50px;
+}
+
+#video-text {
+    height:20px;
+    text-align: center;
+    rotate: 1deg;
+    padding-top:20px;
 }
 
 #text-link {
@@ -91,6 +98,7 @@ a.social-link:hover {
 #cover-image-index {
     width: 200px;
     cursor: pointer;
+    float: left;
     position:relative;
     left: 40px;
 }
@@ -158,6 +166,14 @@ p {
     justify-content: center;
     align-items: center;
     padding-top:20px;
+    padding-bottom:10px;
+}
+
+.video-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top:200px;
     padding-bottom:10px;
 }
 
