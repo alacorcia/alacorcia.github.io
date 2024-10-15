@@ -30,6 +30,11 @@ h1 {
     /*animation: mymove 1s infinite;*/
 }
 
+.powerbi {
+    display: block;
+    text-align: center;
+}
+
 #title-spacer {
     height: 150px;
 }
